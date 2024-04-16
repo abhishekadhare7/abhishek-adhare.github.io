@@ -1105,23 +1105,24 @@ button,
   font-size: 110%;
 }
 
-#quote::before,
-#quote::after {
+#quote::before {
   content: '"';
-  position: absolute; /* Change from relative to absolute */
+  position:relative;
+  top: -10px; /* Adjust this value to position the quotes correctly */
+  left: -30px; /* Adjust this value to position the quotes correctly */
   font-size: 3em; /* Adjust the font size of the quotes as needed */
   color: #d3d3d3; /* Adjust the color of the quotes */
   z-index: -1; /* Ensure the quotes are behind the text */
 }
 
-#quote::before {
-  top: -10px; /* Adjust this value to position the quotes correctly */
-  left: -30px; /* Adjust this value to position the quotes correctly */
-}
-
 #quote::after {
+  content: '"';
+  position: relative; /*la
   bottom: -10px; /* Adjust this value to position the quotes correctly */
   right: -30px; /* Adjust this value to position the quotes correctly */
+  font-size: 3em; /* Adjust the font size of the quotes as needed */
+  color: #d3d3d3; /* Adjust the color of the quotes */
+  z-index: -1; /* Ensure the quotes are behind the text */
 }
 
 
