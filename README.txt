@@ -35,7 +35,7 @@ Quotes: Displays inspirational quotes related to time management, attitude, and 
 <b>Installation</b>
 To run the portfolio website locally, follow these steps:
 
-Clone the repository: git clone https://github.com/abhishekadhare7/portfolio.git
+Clone the repository: git clone https://github.com/abhishekadhare7/abhishek-adhare.github.io
 Navigate to the project directory: cd portfolio
 Open the index.html file in your web browser.
 <b>Usage</b>
