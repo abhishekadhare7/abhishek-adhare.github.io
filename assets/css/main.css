@@ -942,6 +942,7 @@ button,
     -webkit-flex-grow: 0;
     -ms-flex-grow: 0;
     flex-grow: 0;
+    position:relative;
     -moz-flex-shrink: 0;
     -webkit-flex-shrink: 0;
     -ms-flex-shrink: 0;
@@ -1100,29 +1101,29 @@ button,
   font-style: italic;
   color: #007bff; /* Green color for soothing effect */
   font-family: "Arial", sans-serif; /* Font family for better readability */
-  position:absolute;
+  position: relative; /* Change from absolute to relative */
   font-size: 110%;
 }
 
-#quote::before {
+#quote::before,
+#quote::after {
   content: '"';
-  position:relative;
-  top: -10px; /* Adjust this value to position the quotes correctly */
-  left: -30px; /* Adjust this value to position the quotes correctly */
+  position: absolute; /* Change from relative to absolute */
   font-size: 3em; /* Adjust the font size of the quotes as needed */
   color: #d3d3d3; /* Adjust the color of the quotes */
   z-index: -1; /* Ensure the quotes are behind the text */
 }
 
+#quote::before {
+  top: -10px; /* Adjust this value to position the quotes correctly */
+  left: -30px; /* Adjust this value to position the quotes correctly */
+}
+
 #quote::after {
-  content: '"';
-  position: relative; /*la
   bottom: -10px; /* Adjust this value to position the quotes correctly */
   right: -30px; /* Adjust this value to position the quotes correctly */
-  font-size: 3em; /* Adjust the font size of the quotes as needed */
-  color: #d3d3d3; /* Adjust the color of the quotes */
-  z-index: -1; /* Ensure the quotes are behind the text */
 }
+
 
 .firstletter {
   font-size: 120%;
