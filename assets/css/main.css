@@ -822,7 +822,9 @@ button,
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    width: 50%; }
+    width: 50%; 
+    position:relative;
+  }
   #banner .image {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -1024,55 +1026,6 @@ button,
   text-align:justify;
 }
 
-.actions1 {
-  position: absolute;
-  bottom: 10px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
-}
 
-
-cv_button,
-.cv_button {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: transparent;
-  border-radius: 0.375em;
-  border: 0;
-  box-shadow: inset 0 0 0 2px #007bff;
-  color: #000000 !important;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Poppins", sans-serif;
-  position:absolute;
-  bottom: -5rem; /* Adjust as needed */
-  right: 3.7rem;;
-  font-size: 0.8em;
-  font-weight: 700;
-  height: 3.5em;
-  letter-spacing: 0.075em;
-  line-height: 3.5em;
-  padding: 0 2.25em;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  white-space: nowrap; }
-  cv_button:hover,
-  .cv_button:hover {
-    background-color: #e0e0e0;
- }
- @media screen and (max-width: 768px) {
-  .actions {
-      position: relative;
-      display: block;
-      text-align: center; /* Center the button */
-      margin-top: 20px; /* Adjust as needed */
-  }
-}
 
 
