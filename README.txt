@@ -1,3 +1,4 @@
+<html>
 <h3><b>Abhishek Adhare Portfolio</b></h3>
 <style>
   .custom-bullets {
@@ -49,3 +50,4 @@ Images: Images used in the portfolio are either self-created or sourced from roy
 <b>License</b>
 This project is licensed under the MIT License, which means you're free to use and modify the code for personal or commercial purposes.
 
+</html>
